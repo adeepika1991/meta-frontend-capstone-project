@@ -83,7 +83,7 @@ const BookingForm = ({
         <select
           id="occasion"
           name="occasion"
-          // value={formValues.occasion || "birthday"} 
+          value={formValues.occasion || "birthday"} 
           onChange={handleInputChange}
           className={isFormSubmitted && !formValues.occasion ? "error" : ""}
         >
